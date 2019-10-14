@@ -55,7 +55,7 @@ a:active {
 /* ------------- HEADER SECTION START ------------- */
 
 header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url("./resources/img/hero1.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url("./img/bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
