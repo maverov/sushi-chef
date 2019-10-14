@@ -1,0 +1,127 @@
+/* Big tablets */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+}
+
+
+/* Tablet in Landscape view */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0 }
+
+    .p-long {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .hero-text-box {
+        width: 1023px;
+    }
+
+    .header-logo {
+        height: 180px;
+        width: auto;
+    }
+}
+
+/* iPads & tablets */
+@media only screen and (max-width: 790px) {
+    body { font-size: 16px; }
+    section { padding: 50px 0; }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .hero-text-box {
+        width: 600px;
+    }
+
+    .steps-box {
+        justify-content: center;
+    }
+
+    .steps-box:last-child {
+        padding-right: 1%;
+        margin-top: 7px;
+    }
+
+    .order-steps {
+        margin-bottom: 15px;
+    }
+
+    .btn-app img {
+        margin-top: 0px;
+        height: 35px;
+        width: auto;
+        margin-right: 7px;
+    }
+
+    .order-steps:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .col { width: 100%; }
+
+    .phone-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .phone-box .iphone {
+        width: 25%;
+        margin-bottom: 30px;
+    }
+
+    .box p {
+        font-size: 100%;
+        line-height: 145%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .p-long {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .col .span-1-of-2 .steps-box {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-start {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-end {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+
+/* Smart phones */
+@media only screen and (max-width: 580px) {
+    padding { padding: 25px 0; }
+    .hero-text-box {
+        width: 400px;
+    }
+
+    .header-logo {
+        height: 130px;
+    }
+}

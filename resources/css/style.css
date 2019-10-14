@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+html,
 body {
     background-color: #fff;
     color: #555;
@@ -13,6 +14,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .cleafix {zoom: 1}
@@ -337,7 +339,7 @@ h3 {
 .btn-app img {
     margin-top: 10px;
     height: 50px;
-    widows: auto;
+    width: auto;
     margin-right: 10px;
 }
 
@@ -367,3 +369,67 @@ h3 {
     margin-bottom: 10px;
 }
 /* CITIES SECTION END */
+
+
+/* FOOTER START */
+footer {
+    background-color: #333;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a:link,
+footer a:visited {
+    border: 0;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    font-size: .9em;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-copy {
+    margin-top: 1.5rem;
+    font-size: .8em;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: all 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active {
+    color: #ddd;
+}
+
+footer ion-icon {
+    font-size: 2.2rem;
+    transition: color 0.3s;
+}
+
+footer ion-icon:hover,
+footer ion-icon:active {
+    color: #ddd;
+}
+/* FOOTER END */
